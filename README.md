@@ -24,21 +24,21 @@ Instructions:
     RusckFunction.m
 
 2. Use the command NoorLIOV(Ip,h,y,v,Z,rho,eps,tf) where
-Ip = peak lightning current in kA
+   Ip = peak lightning current in kA
 a <br />
-h =  height of the overhead line in m
+   h =  height of the overhead line in m
 a <br />
-y = stroke location in m
+   y = stroke location in m
 a <br />
-v = return stroke velocity in m/s
+   v = return stroke velocity in m/s
 a <br />
-Z = 30 ohms
+   Z = 30 ohms
 a <br />
-rho = ground resistivity in k-ohm.m
+   rho = ground resistivity in k-ohm.m
 a <br />
-eps= ground permittivity
+   eps= ground permittivity
 a <br />
-tf = front time in micro-seconds
+   tf = front time in micro-seconds
 
 Example: NoorLIOV(30,10,220,1.2*1e8,30,16.5,12,5.0)
 
