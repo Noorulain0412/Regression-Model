@@ -2,11 +2,7 @@
 Regression-based model for lightning-induced over-voltages
 
 # Figure Files for coefficients A, B, C, and D
-The regression co-efficients (A,B,C and D) are expressed as a function of front-time and distance. The MATLAB figure files of these coefficients can be used to implement spline interpolation.
-
-# MATLAB Code for the estimation of peak lightning induced overvoltages
-
-This code estimates peak lightning induced overvoltages (LIOVs) for various lightning parameters, namely, peak lightning current, return stroke front time, stroke location, height of the overhead line, ground permittivity, ground resistivity, and return stroke velocity. The figure files are as follows:a <br />
+The regression co-efficients (A,B,C and D) are expressed as a function of front-time and distance. The MATLAB figure files of these coefficients can be used to implement spline interpolation.The figure files are as follows:a <br />
 A_up.m
 a <br />
 B_Up.m
@@ -14,6 +10,10 @@ a <br />
 C_up.m
 a <br />
 D_up.m
+
+# MATLAB Code for the estimation of peak lightning induced overvoltages
+
+This code estimates peak lightning induced overvoltages (LIOVs) for various lightning parameters, namely, peak lightning current, return stroke front time, stroke location, height of the overhead line, ground permittivity, ground resistivity, and return stroke velocity. 
 
 Instructions:
 1. Download all the files in a folder and add it to the MATLAB path. The names of the files are as follows:a <br />
