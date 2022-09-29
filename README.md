@@ -1,6 +1,7 @@
 # Regression-Model
 Regression-based model for lightning-induced over-voltages
 
+# Figure Files for coefficients A, B, C, and D
 The regression co-efficients (A,B,C and D) are expressed as a function of front-time and distance. The MATLAB figure files of these coefficients can be used to implement spline interpolation.
 
 # MATLAB Code for the estimation of peak lightning induced overvoltages
@@ -40,6 +41,6 @@ a <br />
 a <br />
    tf = front time in micro-seconds
 
-Example: NoorLIOV(30,10,220,1.2*1e8,30,16.5,12,5.0)
+   Example: NoorLIOV(30,10,220,1.2*1e8,30,16.5,12,5.0)
 
 3. The peak lightning induced overvoltage will be displayed in kV.
