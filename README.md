@@ -33,19 +33,19 @@ Instructions:
 
 2. Use the command NoorLIOV(Ip,h,y,v,Z,rho,eps,tf) where
    Ip = peak lightning current in kA
-<br />
+   <br />
    h =  height of the overhead line in m
-<br />
+   <br />
    y = stroke location in m
-<br />
+   <br />
    v = return stroke velocity in m/s
-<br />
+   <br />
    Z = 30 ohms
-<br />
+   <br />
    rho = ground resistivity in k-ohm.m
-<br />
+   <br />
    eps= ground permittivity
-<br />
+   <br />
    tf = front time in micro-seconds
 
    Example: NoorLIOV(30,10,220,1.2*1e8,30,16.5,12,5.0)
