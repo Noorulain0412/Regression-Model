@@ -10,9 +10,13 @@ This code estimates peak lightning induced overvoltages (LIOVs) for various ligh
 Instructions:
 1. Download all the files in a folder and add it to the MATLAB path. The names of the files are as follows:
     ab.m
-    ab1.m
-    ABCD.m
+    a <br />
+    ab1.m 
+    a <br />
+    ABCD.m 
+    a <br />
     CorrectionFactor1.m
+    a <br />
     CorrectionFactor2.m
     NoorLIOV.m
     RusckFunction.m
