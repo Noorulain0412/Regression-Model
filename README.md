@@ -6,7 +6,7 @@ The regression co-efficients (A,B,C and D) are expressed as a function of front-
 
 # MATLAB Code for the estimation of peak lightning induced overvoltages
 
-This code estimates peak lightning induced overvoltages (LIOVs) for various lightning parameters, namely, peak lightning current, return stroke front time, stroke location, height of the overhead line, ground permittivity, ground resistivity, and return stroke velocity. The figure files are as follows:
+This code estimates peak lightning induced overvoltages (LIOVs) for various lightning parameters, namely, peak lightning current, return stroke front time, stroke location, height of the overhead line, ground permittivity, ground resistivity, and return stroke velocity. The figure files are as follows:a <br />
 A_up.m
 a <br />
 B_Up.m
@@ -16,7 +16,7 @@ a <br />
 D_up.m
 
 Instructions:
-1. Download all the files in a folder and add it to the MATLAB path. The names of the files are as follows:
+1. Download all the files in a folder and add it to the MATLAB path. The names of the files are as follows:a <br />
     ab.m
     a <br />
     ab1.m 
