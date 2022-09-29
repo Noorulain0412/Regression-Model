@@ -2,13 +2,13 @@
 Regression-based model for lightning-induced over-voltages
 
 # Figure Files for coefficients A, B, C, and D
-The regression co-efficients (A,B,C and D) are expressed as a function of front-time and distance. The MATLAB figure files of these coefficients can be used to implement spline interpolation.The figure files are as follows: a <br />
+The regression co-efficients (A,B,C and D) are expressed as a function of front-time and distance. The MATLAB figure files of these coefficients can be used to implement spline interpolation.The figure files are as follows: <br />
 A_up.m
-a <br />
+<br />
 B_Up.m
-a <br />
+<br />
 C_up.m
-a <br />
+<br />
 D_up.m
 
 # MATLAB Code for the estimation of peak lightning induced overvoltages
@@ -16,36 +16,36 @@ D_up.m
 This code estimates peak lightning induced overvoltages (LIOVs) for various lightning parameters, namely, peak lightning current, return stroke front time, stroke location, height of the overhead line, ground permittivity, ground resistivity, and return stroke velocity. 
 
 Instructions:
-1. Download all the files in a folder and add it to the MATLAB path. The names of the files are as follows:a <br />
+1. Download all the files in a folder and add it to the MATLAB path. The names of the files are as follows:<br />
     ab.m
-    a <br />
+    <br />
     ab1.m 
-    a <br />
+    <br />
     ABCD.m 
-    a <br />
+    <br />
     CorrectionFactor1.m
-    a <br />
+    <br />
     CorrectionFactor2.m
-    a <br />
+    <br />
     NoorLIOV.m
-    a <br />
+    <br />
     RusckFunction.m
 
 2. Use the command NoorLIOV(Ip,h,y,v,Z,rho,eps,tf) where
    Ip = peak lightning current in kA
-a <br />
+<br />
    h =  height of the overhead line in m
-a <br />
+<br />
    y = stroke location in m
-a <br />
+<br />
    v = return stroke velocity in m/s
-a <br />
+<br />
    Z = 30 ohms
-a <br />
+<br />
    rho = ground resistivity in k-ohm.m
-a <br />
+<br />
    eps= ground permittivity
-a <br />
+<br />
    tf = front time in micro-seconds
 
    Example: NoorLIOV(30,10,220,1.2*1e8,30,16.5,12,5.0)
