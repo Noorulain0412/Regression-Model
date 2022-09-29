@@ -2,7 +2,7 @@
 Regression-based model for lightning-induced over-voltages
 
 # Figure Files for coefficients A, B, C, and D
-The regression co-efficients (A,B,C and D) are expressed as a function of front-time and distance. The MATLAB figure files of these coefficients can be used to implement spline interpolation.The figure files are as follows:a <br />
+The regression co-efficients (A,B,C and D) are expressed as a function of front-time and distance. The MATLAB figure files of these coefficients can be used to implement spline interpolation.The figure files are as follows: a <br />
 A_up.m
 a <br />
 B_Up.m
