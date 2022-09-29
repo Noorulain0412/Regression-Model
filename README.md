@@ -18,17 +18,26 @@ Instructions:
     CorrectionFactor1.m
     a <br />
     CorrectionFactor2.m
+    a <br />
     NoorLIOV.m
+    a <br />
     RusckFunction.m
 
 2. Use the command NoorLIOV(Ip,h,y,v,Z,rho,eps,tf) where
 Ip = peak lightning current in kA
+a <br />
 h =  height of the overhead line in m
+a <br />
 y = stroke location in m
+a <br />
 v = return stroke velocity in m/s
+a <br />
 Z = 30 ohms
+a <br />
 rho = ground resistivity in k-ohm.m
+a <br />
 eps= ground permittivity
+a <br />
 tf = front time in micro-seconds
 
 Example: NoorLIOV(30,10,220,1.2*1e8,30,16.5,12,5.0)
